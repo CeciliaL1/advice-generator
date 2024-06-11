@@ -1,0 +1,44 @@
+
+:root {
+  --vt-c-dark-greyish: hsl(217, 19%, 24%);
+  --vt-c-lighter-greyish: sl(217, 19%, 38%);
+
+  --vt-c-light-cyan: hsl(193, 38%, 86%);
+
+  --vt-c-text-light-1: var(--vt-c-light-cyan);
+
+  --vt-c-neon-green: hsl(150, 100%, 66%);
+}
+
+:root {
+  --color-background: var(--vt-c-dark-greyish);
+ 
+
+  --color-heading: var(--vt-c-text-light-1);
+  --color-text: var(--vt-c-text-light-1);
+
+  --section-gap: 160px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-text);
+  background: var(--color-background);
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+  line-height: 1.6;
+  font-family: manrope;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
