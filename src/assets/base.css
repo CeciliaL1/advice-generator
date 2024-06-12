@@ -1,7 +1,8 @@
 
 :root {
+  --vt-c-dark-blue: hsl(218, 23%, 16%);
   --vt-c-dark-greyish: hsl(217, 19%, 24%);
-  --vt-c-lighter-greyish: sl(217, 19%, 38%);
+  --vt-c-lighter-greyish: hsl(217, 19%, 38%);
 
   --vt-c-light-cyan: hsl(193, 38%, 86%);
 
@@ -11,7 +12,7 @@
 }
 
 :root {
-  --color-background: var(--vt-c-dark-greyish);
+  --color-background: var(--vt-c-dark-blue);
  
 
   --color-heading: var(--vt-c-text-light-1);
