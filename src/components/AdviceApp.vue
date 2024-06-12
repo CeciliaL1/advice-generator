@@ -29,7 +29,11 @@ const handleClick = async () => {
 
 <style scoped>
 .container {
-    width: 400px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: var(--vt-c-lighter-greyish);
     border-radius: 6px;
     padding: 10px;
