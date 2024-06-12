@@ -1,6 +1,6 @@
 # Advice-Generator
 Generates an random advice from API [Advice-slip](https://api.adviceslip.com).
-This project is made with Frontend Mentor[Fronend Mentor](https://www.frontendmentor.io/)
+This project is made with [Fronend Mentor](https://www.frontendmentor.io/)
 
 ## Demolink
 
