@@ -22,13 +22,13 @@ interface IAdviceProps {
 
 <style scoped>
 .advice {
-    width: 200px;
+    width: 250px;
     height: 300px;
     font-weight: 800;
     
 }
 p {
-    margin-left: 65px;
+    margin-left: 80px;
     margin-top: 10px;
     margin-bottom: 10px;
     text-transform: uppercase;

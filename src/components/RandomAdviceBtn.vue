@@ -18,6 +18,7 @@ defineEmits<{
 div {
     position: relative;
     top: 30px;
+    left: 1px;
     width: 50px;
     height: 70px;
     border-radius: 50%;
